@@ -1,0 +1,7 @@
+{
+    "_description": "긴급 공지사항 제어 파일: 'show'를 true로 바꾸면 팝업 상단에 공지가 즉시 노출됩니다.",
+    "show": false,
+    "type": "info",
+    "title": "공지사항",
+    "content": "현재 정상적으로 서비스 중입니다."
+}
