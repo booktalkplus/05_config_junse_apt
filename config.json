@@ -1,9 +1,6 @@
 {
     "_description": "전세낀 원격 시스템 설정 파일: 보안을 위해 민감 정보(쿠팡 링크 등)는 포함하지 않습니다.",
     "SYSTEM": {
-        "UTILITY": {
-            "COUPANG_LINK": "https://link.coupang.com/a/dNoXLN"
-        },
         "NOTICE_MESSAGE": "[공지] 현재 시스템이 아주 원활하게 작동 중입니다. (2026.02.16)",
         "_PHASE_SETTINGS_HELP": "ENRICHMENT_LIMIT: 수집 매물 수 제한, ENRICHMENT_DELAY_RANGE: 수집 간 랜덤 지연 시간(ms)",
         "PHASE_SETTINGS": {
