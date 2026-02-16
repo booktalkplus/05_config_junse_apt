@@ -1,0 +1,21 @@
+{
+    "_description": "전세낀 원격 시스템 설정 파일: 보안을 위해 민감 정보(쿠팡 링크 등)는 포함하지 않습니다.",
+    "SYSTEM": {
+        "NOTICE_MESSAGE": "[공지] 현재 시스템이 아주 원활하게 작동 중입니다. (2026.02.16)",
+        "_PHASE_SETTINGS_HELP": "ENRICHMENT_LIMIT: 수집 매물 수 제한, ENRICHMENT_DELAY_RANGE: 수집 간 랜덤 지연 시간(ms)",
+        "PHASE_SETTINGS": {
+            "ENRICHMENT_LIMIT": 0,
+            "ENRICHMENT_DELAY_RANGE": [
+                1000,
+                3500
+            ]
+        },
+        "_UI_SETTINGS_HELP": "AVG_DURATION_PER_ARTICLE: 예상 시간 계산용(초), ANALYSIS_GUIDE_MESSAGE: 로딩 화면 안내 문구, KAKAO_TALK_LINK: 오픈톡방 주소, KAKAO_TALK_CODE: 참여 코드",
+        "UI_SETTINGS": {
+            "ANALYSIS_GUIDE_MESSAGE": "분석이 완료되면 알림을 보내드려요. 다른 작업을 하셔도 괜찮아요.",
+            "AVG_DURATION_PER_ARTICLE": 2.5,
+            "KAKAO_TALK_LINK": "https://open.kakao.com/o/gPESaJgi",
+            "KAKAO_TALK_CODE": "codejs"
+        }
+    }
+}
