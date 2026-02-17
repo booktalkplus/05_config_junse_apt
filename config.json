@@ -15,7 +15,9 @@
             "ANALYSIS_GUIDE_MESSAGE": "분석이 완료되면 알림을 보내드려요. 다른 작업을 하셔도 괜찮아요.",
             "AVG_DURATION_PER_ARTICLE": 2.5,
             "KAKAO_TALK_LINK": "https://open.kakao.com/o/gPESaJgi",
-            "KAKAO_TALK_CODE": "codejs"
+            "KAKAO_TALK_CODE": "codejs",
+            "CREATOR_INFO": "Created by AI중개사 | 중개업 자동화",
+            "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
         }
     }
 }
