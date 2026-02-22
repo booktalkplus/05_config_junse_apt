@@ -32,7 +32,7 @@
             "AVG_DURATION_PER_ARTICLE": 2.5,
             "ANALYSIS_GUIDE_MESSAGE": "분석이 완료되면 알림을 보내드려요. 다른 작업을 하셔도 괜찮아요.",
             "NOTIFICATION_TITLE": "🎉 분석 완료!",
-            "NOTIFICATION_MESSAGE": "[{complexName}] 총 {count}개의 매물 분석이 모두 끝났습니다. 지금 리포트를 확인해 보세요!",
+            "NOTIFICATION_MESSAGE": "[{complexName}] 총 {count}개의 매물 분석이 모두 끝났습니다",
             "KAKAO_TALK_LINK": "https://open.kakao.com/o/gPESaJgi",
             "KAKAO_TALK_CODE": "codejs"
         },
@@ -45,6 +45,7 @@
         "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
     }
 }
+
 
 
 
