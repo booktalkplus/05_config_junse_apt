@@ -36,7 +36,7 @@
     "_B_LAYOUT_HELP": "B 레이아웃 전용 설정 — 배너 등장 타이밍·약속 체크박스 문구·색상·노출 횟수",
     "SPONSOR_BANNER_DELAY_SEC": 10,
     "PROMISE_BTN_TEXT": "쿠팡 즐겨찾기 약속합니다",
-    "PROMISE_CHECKED_TEXT": "쿠팡 즐겨찾기 약속하였습니다",
+    "PROMISE_CHECKED_TEXT": "쿠팡 즐겨찾기 약속하셨습니다",
     "PROMISE_TEXT_COLOR": "#94a3b8",
     "PROMISE_CHECKED_COLOR": "#4ade80",
     "PROMISE_LINK_COLOR": "#60a5fa",

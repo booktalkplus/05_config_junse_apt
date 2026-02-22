@@ -39,7 +39,7 @@
         "KEYWORDS_DEFAULT": ["전세낀", "전세안고", "세안고"],
 
         "_CREATOR_HELP": "리포트 헤더(#creator-signature) 및 CSV 파일 하단에 공통 표시되는 제작자 정보입니다.",
-        "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화",
+        "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화 V1.0.1",
         "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
     }
 }
