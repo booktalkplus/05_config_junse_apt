@@ -7,14 +7,14 @@
 
         "_PHASE_SETTINGS_HELP": {
             "COLLECTION_STRATEGY": "'INTERCEPTION'(감청, 권장) 또는 'DIRECT'(직접 호출) 중 선택",
-            "ENRICHMENT_LIMIT": "한 번 실행 시 상세 수집할 최대 매물 수. 너무 높으면 봇 감지 위험 (권장: 10~20)",
+            "ENRICHMENT_LIMIT": "상세 수집할 최대 매물 수. 0=무제한(전체 수집), 양수=해당 개수 제한. 봇 감지 위험이 있으므로 권장값: 10~20",
             "ENRICHMENT_DELAY_RANGE": "[최소, 최대] 밀리초. 매물 수집 사이 랜덤 대기 범위",
             "ENRICHMENT_DELAY_LIST": "랜덤 대기 후보 목록(밀리초). 이 중 하나를 무작위로 선택",
             "ENRICHMENT_DELAY": "고정 대기 시간(밀리초). 랜덤 미사용 시 적용"
         },
         "PHASE_SETTINGS": {
             "COLLECTION_STRATEGY": "INTERCEPTION",
-            "ENRICHMENT_LIMIT": 15,
+            "ENRICHMENT_LIMIT": 0,
             "ENRICHMENT_DELAY_RANGE": [1000, 4000],
             "ENRICHMENT_DELAY_LIST": [1500, 3000, 1200, 4500, 2200],
             "ENRICHMENT_DELAY": 1500
@@ -22,7 +22,6 @@
 
         "_UI_SETTINGS_HELP": {
             "AVG_DURATION_PER_ARTICLE": "예상 소요 시간 계산용 (초 단위). 예: 15건 × 2.5초 = 약 38초",
-            "ANALYSIS_GUIDE_MESSAGE": "수집 진행 중 화면에 표시되는 안내 문구",
             "NOTIFICATION_TITLE": "수집 완료 시 브라우저 알림 제목",
             "NOTIFICATION_MESSAGE": "수집 완료 알림 본문. {complexName}=단지명, {count}=매물수 로 자동 치환",
             "KAKAO_TALK_LINK": "고객 지원 카카오 오픈채팅방 URL (변경 시 이 파일만 수정)",
@@ -30,9 +29,8 @@
         },
         "UI_SETTINGS": {
             "AVG_DURATION_PER_ARTICLE": 2.5,
-            "ANALYSIS_GUIDE_MESSAGE": "분석이 완료되면 알림을 보내드려요. 다른 작업을 하셔도 괜찮아요.",
             "NOTIFICATION_TITLE": "🎉 분석 완료!",
-            "NOTIFICATION_MESSAGE": "[{complexName}] 총 {count}개의 매물 분석이 모두 끝났습니다",
+            "NOTIFICATION_MESSAGE": "[{complexName}] 총 {count}개의 매물 분석이 모두 끝났습니다.",
             "KAKAO_TALK_LINK": "https://open.kakao.com/o/gPESaJgi",
             "KAKAO_TALK_CODE": "codejs"
         },
@@ -40,13 +38,8 @@
         "_KEYWORDS_HELP": "DEFAULT 키워드는 사용자가 삭제할 수 없는 기본 검색 단어 목록입니다. 새로운 표현이 생기면 여기에 추가하세요.",
         "KEYWORDS_DEFAULT": ["전세낀", "전세안고", "세안고"],
 
-        "_CREATOR_HELP": "CSV 파일 하단에 자동 삽입되는 제작자 정보입니다.",
-        "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화 v1.0.1 ",
+        "_CREATOR_HELP": "리포트 헤더(#creator-signature) 및 CSV 파일 하단에 공통 표시되는 제작자 정보입니다.",
+        "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화",
         "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
     }
 }
-
-
-
-
-
