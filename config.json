@@ -1,23 +1,47 @@
 {
-    "_description": "전세낀 원격 시스템 설정 파일: 보안을 위해 민감 정보(쿠팡 링크 등)는 포함하지 않습니다.",
+    "_description": "전세낀 시스템 운영 설정 — 수집 전략·딜레이·링크·문구 등 확장 프로그램 업데이트 없이 즉시 변경 가능한 값",
+
+    "_security_note": "COUPANG_LINK(쿠팡 파트너스 수익 링크)는 외부 주입 공격 방지를 위해 이 파일에 포함하지 않습니다. 반드시 chrome-extension/config.js에서만 수정하세요.",
+
     "SYSTEM": {
-        "NOTICE_MESSAGE": "[공지] 현재 시스템이 아주 원활하게 작동 중입니다. (2026.02.16)",
-        "_PHASE_SETTINGS_HELP": "ENRICHMENT_LIMIT: 수집 매물 수 제한, ENRICHMENT_DELAY_RANGE: 수집 간 랜덤 지연 시간(ms)",
-        "PHASE_SETTINGS": {
-            "ENRICHMENT_LIMIT": 0,
-            "ENRICHMENT_DELAY_RANGE": [
-                1000,
-                3500
-            ]
+
+        "_PHASE_SETTINGS_HELP": {
+            "COLLECTION_STRATEGY": "'INTERCEPTION'(감청, 권장) 또는 'DIRECT'(직접 호출) 중 선택",
+            "ENRICHMENT_LIMIT": "한 번 실행 시 상세 수집할 최대 매물 수. 너무 높으면 봇 감지 위험 (권장: 10~20)",
+            "ENRICHMENT_DELAY_RANGE": "[최소, 최대] 밀리초. 매물 수집 사이 랜덤 대기 범위",
+            "ENRICHMENT_DELAY_LIST": "랜덤 대기 후보 목록(밀리초). 이 중 하나를 무작위로 선택",
+            "ENRICHMENT_DELAY": "고정 대기 시간(밀리초). 랜덤 미사용 시 적용"
         },
-        "_UI_SETTINGS_HELP": "AVG_DURATION_PER_ARTICLE: 예상 시간 계산용(초), ANALYSIS_GUIDE_MESSAGE: 로딩 화면 안내 문구, KAKAO_TALK_LINK: 오픈톡방 주소, KAKAO_TALK_CODE: 참여 코드",
+        "PHASE_SETTINGS": {
+            "COLLECTION_STRATEGY": "INTERCEPTION",
+            "ENRICHMENT_LIMIT": 15,
+            "ENRICHMENT_DELAY_RANGE": [1000, 4000],
+            "ENRICHMENT_DELAY_LIST": [1500, 3000, 1200, 4500, 2200],
+            "ENRICHMENT_DELAY": 1500
+        },
+
+        "_UI_SETTINGS_HELP": {
+            "AVG_DURATION_PER_ARTICLE": "예상 소요 시간 계산용 (초 단위). 예: 15건 × 2.5초 = 약 38초",
+            "ANALYSIS_GUIDE_MESSAGE": "수집 진행 중 화면에 표시되는 안내 문구",
+            "NOTIFICATION_TITLE": "수집 완료 시 브라우저 알림 제목",
+            "NOTIFICATION_MESSAGE": "수집 완료 알림 본문. {complexName}=단지명, {count}=매물수 로 자동 치환",
+            "KAKAO_TALK_LINK": "고객 지원 카카오 오픈채팅방 URL (변경 시 이 파일만 수정)",
+            "KAKAO_TALK_CODE": "오픈채팅방 입장 코드"
+        },
         "UI_SETTINGS": {
-            "ANALYSIS_GUIDE_MESSAGE": "분석이 완료되면 알림을 보내드려요. 다른 작업을 하셔도 괜찮아요.",
             "AVG_DURATION_PER_ARTICLE": 2.5,
+            "ANALYSIS_GUIDE_MESSAGE": "분석이 완료되면 알림을 보내드려요. 다른 작업을 하셔도 괜찮아요.",
+            "NOTIFICATION_TITLE": "🎉 분석 완료!",
+            "NOTIFICATION_MESSAGE": "[{complexName}] 총 {count}개의 매물 분석이 모두 끝났습니다. 지금 리포트를 확인해 보세요!",
             "KAKAO_TALK_LINK": "https://open.kakao.com/o/gPESaJgi",
-            "KAKAO_TALK_CODE": "codejs",
-            "CREATOR_INFO": "Created by AI중개사 | 중개업 자동화",
-            "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
-        }
+            "KAKAO_TALK_CODE": "codejs"
+        },
+
+        "_KEYWORDS_HELP": "DEFAULT 키워드는 사용자가 삭제할 수 없는 기본 검색 단어 목록입니다. 새로운 표현이 생기면 여기에 추가하세요.",
+        "KEYWORDS_DEFAULT": ["전세낀", "전세안고", "세안고"],
+
+        "_CREATOR_HELP": "CSV 파일 하단에 자동 삽입되는 제작자 정보입니다.",
+        "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화",
+        "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
     }
 }
