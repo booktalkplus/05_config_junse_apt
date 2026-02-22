@@ -34,7 +34,7 @@
             "NOTIFICATION_TITLE": "🎉 분석 완료!",
             "NOTIFICATION_MESSAGE": "[{complexName}] 총 {count}개의 매물 분석이 모두 끝났습니다. 지금 리포트를 확인해 보세요!",
             "KAKAO_TALK_LINK": "https://open.kakao.com/o/gPESaJgi",
-            "KAKAO_TALK_CODE": ""
+            "KAKAO_TALK_CODE": "codejs"
         },
 
         "_KEYWORDS_HELP": "DEFAULT 키워드는 사용자가 삭제할 수 없는 기본 검색 단어 목록입니다. 새로운 표현이 생기면 여기에 추가하세요.",
@@ -45,4 +45,5 @@
         "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
     }
 }
+
 
