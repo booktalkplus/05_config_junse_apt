@@ -6,7 +6,7 @@
         "bgColor":   { "default": "#fff7ed", "preset": { "긴급": "#fef2f2", "경고": "#fffbeb", "일반": "#eff6ff" } },
         "borderColor":{ "default": "#f97316", "preset": { "긴급": "#ef4444", "경고": "#f59e0b", "일반": "#3b82f6" } }
     },
-    "show": true,
+    "show": false,
     "type": "info",
     "title": "공지사항",
     "content": "현재 정상적으로 서비스 중입니다.",
