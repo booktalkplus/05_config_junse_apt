@@ -1,0 +1,21 @@
+{
+    "_description": "네이버 부동산 API 엔드포인트·파싱 키 원격 설정 — URL 구조나 응답 노드명 변경 시 코드 재배포 없이 이 파일만 수정하면 즉시 대응 가능",
+
+    "_ENDPOINTS_HELP": {
+        "ARTICLE_PAGE":             "매물 목록 탭으로 이동할 페이지 URL 템플릿. {complexNo} 는 실제 단지번호로 자동 치환됩니다.",
+        "INTERCEPT_ARTICLE_LIST":   "매물 목록 API 감청 시 URL에 포함되어야 하는 문자열 (부분 일치)",
+        "INTERCEPT_COMPLEX_DETAIL": "단지 상세 API 감청 시 URL에 포함되어야 하는 문자열 (부분 일치)"
+    },
+    "API_ENDPOINTS": {
+        "ARTICLE_PAGE":             "https://fin.land.naver.com/complexes/{complexNo}?tab=article&transactionTradeType=B1&articleTradeTypes=B1&sameAddressGroup=false",
+        "INTERCEPT_ARTICLE_LIST":   "front-api/v1/complex/article/list",
+        "INTERCEPT_COMPLEX_DETAIL": "/api/complexes/"
+    },
+
+    "_PARSE_KEYS_HELP": {
+        "COMPLEX_DETAIL": "단지 상세 정보 객체의 키 경로 후보 목록. 배열 순서대로 탐색하여 값이 있는 첫 번째 키를 사용합니다. 네이버가 노드명을 변경하면 새 키를 배열 앞에 추가하세요."
+    },
+    "API_PARSE_KEYS": {
+        "COMPLEX_DETAIL": ["complex", "complexDetail", "result.complex", "result.complexDetail", "result"]
+    }
+}
