@@ -36,7 +36,7 @@
         },
 
         "_KEYWORDS_HELP": "DEFAULT 키워드는 사용자가 삭제할 수 없는 기본 검색 단어 목록입니다. 새로운 표현이 생기면 여기에 추가하세요.",
-        "KEYWORDS_DEFAULT": ["전세낀", "전세안고", "세안고"],
+        "KEYWORDS_DEFAULT": ["전세낀", "세안고", "다주택"],
 
         "_CREATOR_HELP": "리포트 헤더(#creator-signature) 및 CSV 파일 하단에 공통 표시되는 제작자 정보입니다.",
         "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화",
