@@ -10,7 +10,7 @@
         "D1": "결과 버튼 클릭 시 터미널 타이핑 → 재클릭 시 쿠팡 백그라운드 탭 + 3단계 이동",
         "D2": "결과 버튼 클릭 시 터미널 타이핑 → N초 카운트다운 후 3단계 이동 (Enter 즉시 이동)"
     },
-    "SPONSOR_ENABLED": true,
+    "SPONSOR_ENABLED": false,
     "SPONSOR_LAYOUT": "B",
 
     "SPONSOR_D2_COUNTDOWN_SEC": 5,
