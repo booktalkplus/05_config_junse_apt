@@ -48,7 +48,7 @@
             "ENABLE_DEBUG_STORAGE": "chrome.storage에 저장된 원시 데이터 전체를 콘솔에 덤프. 데이터 양이 매우 많아 콘솔을 압도하므로 '저장된 값 자체가 이상하다'는 특수 상황 외에는 true로 바꿀 필요 없음. 기본값 false 유지 권장."
         },
         "_LOGGING": {
-            "ENABLE_CONSOLE": true,
+            "ENABLE_CONSOLE": false,
             "ENABLE_DEBUG_STORAGE": false
         }
     }
