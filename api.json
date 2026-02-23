@@ -7,9 +7,11 @@
         "INTERCEPT_COMPLEX_DETAIL": "단지 상세 API 감청 시 URL에 포함되어야 하는 문자열 (부분 일치)"
     },
     "API_ENDPOINTS": {
-        "ARTICLE_PAGE":             "https://fin.land.naver.com/complexes/{complexNo}?tab=article&transactionTradeType=B1&articleTradeTypes=B1&sameAddressGroup=false",
+        "ARTICLE_PAGE":             "https://fin.land.naver.com/complexes/{complexNo}?tab=article&transactionTradeType={tradeType}&articleTradeTypes={tradeType}&sameAddressGroup=false",
         "INTERCEPT_ARTICLE_LIST":   "front-api/v1/complex/article/list",
-        "INTERCEPT_COMPLEX_DETAIL": "/api/complexes/"
+        "INTERCEPT_COMPLEX_DETAIL": "/api/complexes/",
+        "PC_COMPLEX_DIRECT":        "https://new.land.naver.com/api/complexes/{complexNo}",
+        "MOBILE_COMPLEX_DIRECT":    "https://fin.land.naver.com/front-api/v1/complex?complexNumber={complexNo}"
     },
 
     "_PARSE_KEYS_HELP": {
