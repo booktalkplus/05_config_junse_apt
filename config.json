@@ -40,6 +40,16 @@
 
         "_CREATOR_HELP": "리포트 헤더(#creator-signature) 및 CSV 파일 하단에 공통 표시되는 제작자 정보입니다.",
         "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화",
-        "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA"
+        "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA",
+
+        "_LOGGING_HELP": {
+            "사용법": "사용자 오류 신고 접수 시 아래 '_LOGGING'의 언더바(_)를 제거해 'LOGGING'으로 바꾸고 GitHub 푸시 → 사용자 앱 재시작 시 자동 활성화. 파악 완료 후 다시 '_LOGGING'으로 복원하면 config.js 기본값(false)으로 복귀.",
+            "ENABLE_CONSOLE": "true = 콘솔 로그 활성화 / false = 콘솔 로그 비활성화. 대부분의 오류는 이 값만 true로 해도 충분히 추적 가능.",
+            "ENABLE_DEBUG_STORAGE": "chrome.storage에 저장된 원시 데이터 전체를 콘솔에 덤프. 데이터 양이 매우 많아 콘솔을 압도하므로 '저장된 값 자체가 이상하다'는 특수 상황 외에는 true로 바꿀 필요 없음. 기본값 false 유지 권장."
+        },
+        "_LOGGING": {
+            "ENABLE_CONSOLE": true,
+            "ENABLE_DEBUG_STORAGE": false
+        }
     }
 }
