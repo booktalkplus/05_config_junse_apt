@@ -39,8 +39,8 @@
         "KEYWORDS_DEFAULT": ["전세낀", "세안고", "다주택"],
 
         "_CREATOR_HELP": "리포트 헤더(#creator-signature) 및 CSV 파일 하단에 공통 표시되는 제작자 정보입니다.",
-        "CREATOR_INFO": "Created by AI 중개보조 | 중개업 자동화",
-        "CREATOR_URL": "https://www.youtube.com/channel/UC-hmhpzXhurEufM4izBzgUA",
+        "CREATOR_INFO": "중개업무 자동화 도구 무료 배포",
+        "CREATOR_URL": "https://booktalkplus.github.io/HTML",
 
         "_LOGGING_HELP": {
             "사용법": "사용자 오류 신고 접수 시 아래 '_LOGGING'의 언더바(_)를 제거해 'LOGGING'으로 바꾸고 GitHub 푸시 → 사용자 앱 재시작 시 자동 활성화. 파악 완료 후 다시 '_LOGGING'으로 복원하면 config.js 기본값(false)으로 복귀.",
@@ -53,3 +53,4 @@
         }
     }
 }
+
